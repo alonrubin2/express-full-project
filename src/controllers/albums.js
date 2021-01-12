@@ -52,7 +52,6 @@ class Albums {
         }
         requestedAlbum.title = req.body.title;
         requestedAlbum.date = req.body.date;
-
         res.send(`${requestedAlbum.title} has been updated`)
     }
 
